@@ -1,0 +1,19 @@
+# include <stdio.h>
+//Question#3
+int main ()
+{
+	int Salary2;
+	int FinalSalary;
+	int TaxRate;
+	int Salary;
+	printf("Enter Tax Rate");
+	scanf("%D" , &TaxRate);
+	printf("Enter Salary");
+	scanf("%D" , &Salary);
+	Salary2 = (Salary *((TaxRate)/100));
+	FinalSalary = (Salary + Salary2);
+	printf("Your Final Salary after the tax is");
+	printf ("%d" ,FinalSalary);
+	return FinalSalary;
+	
+}
