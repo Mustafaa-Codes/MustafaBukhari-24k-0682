@@ -1,32 +1,5 @@
 # include <stdio.h>
-
-int main ()
-{
-	int Result;
-	int Banana;
-	int Apple;
-	printf("Enter a Number: ");
-	scanf("%d", &Apple);
-	printf("Enter another Number: ");
-	scanf("%d", &Banana);
-	Result=Apple+Banana;
-	printf("Your Result is %d",Result);
-	int int4;
-	int int3;
-	int int1;
-	int int2;
-	printf("Enter a Number: ");
-	scanf("%d" , &int1);
-	printf("Enter another number: ");
-	scanf("%d" , &int2);
-	int4 = int1;
-	int3 = int2;
-	int2 = int4;
-	int1 = int3;
-	printf ("Integer 1 is %d" ,int1);
-	printf("Integer 2 is %d" ,int2);	
-}
-
+//Question#2
 int main2 ()
 {
 	int int4;
